@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pipeline Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="dashboard-shell">
+      <aside class="stage-rail">
+        <div class="rail-top">
+          <p class="eyebrow">Pipeline Viewer</p>
+          <h1>Редакторский дашборд этапов</h1>
+          <p class="rail-note">
+            Один экран для человека. Markdown остаётся рабочим сырьём, дашборд —
+            понятным отражением этапов.
+          </p>
+        </div>
+
+        <nav id="stage-nav" class="stage-nav" aria-label="Этапы пайплайна"></nav>
+
+        <div class="rail-bottom" id="project-meta"></div>
+      </aside>
+
+      <main class="main-panel">
+        <header class="panel-top" id="panel-top"></header>
+        <section id="panel-content" class="panel-content"></section>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
