@@ -1,0 +1,13 @@
+---
+name: marketing-knowledge-base
+description: Справочник по маркетинговым принципам и маркетплейс-специфике для задач позиционирования, копирайтинга и инфографики.
+metadata:
+  source_url: https://github.com/khupolina-cmd/ju/tree/main/marketing-knowledge-base
+  source_file: marketing-knowledge-base.md
+---
+
+# Skill: marketing-knowledge-base
+
+Используй этот навык как справочник, когда нужен маркетинговый контекст для позиционирования, копирайтинга, структуры карточки или инфографики.
+
+Основной материал находится в файле [marketing-knowledge-base.md](./marketing-knowledge-base.md). Читай только нужные разделы под текущую задачу, чтобы не раздувать контекст.
